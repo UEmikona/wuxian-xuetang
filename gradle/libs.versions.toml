@@ -1,7 +1,7 @@
 [versions]
 agp = "9.4.0"
 kotlin = "2.3.21"
-ksp = "2.3.11"
+ksp = "2.3.13"
 hilt = "2.60.1"
 composeBom = "2026.08.00"
 media3 = "1.11.1"
