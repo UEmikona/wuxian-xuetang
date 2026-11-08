@@ -37,14 +37,14 @@ jobs:
 
       - name: Upload test reports
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: unit-test-reports
           path: app/build/reports/tests/
           if-no-files-found: ignore
 
       - name: Upload debug APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: WuxianXuetang-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
