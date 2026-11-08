@@ -1,0 +1,328 @@
+{
+  "courses": [
+    {
+      "id": "kotlin-basics",
+      "title": "Kotlin 入门实战",
+      "subtitle": "从零开始学习现代 Android 开发语言",
+      "description": "【占位内容】本课程为 App 功能演示用的示例内容，不代表真实教学资料。课程覆盖变量、函数、类与空安全等基础语法。",
+      "instructor": "示例讲师 A",
+      "category": "编程",
+      "priceCents": 0,
+      "coverColor": "#3D5AFE",
+      "rating": 4.8,
+      "ratingCount": 236,
+      "studentCount": 5120,
+      "featured": true,
+      "lessons": [
+        {
+          "id": "kotlin-basics-l01",
+          "title": "课程导学",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "kotlin-basics-l02",
+          "title": "变量与类型",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "kotlin-basics-l03",
+          "title": "函数与空安全",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        }
+      ],
+      "reviews": [
+        {
+          "author": "学员甲",
+          "rating": 5,
+          "content": "讲解节奏清晰，适合零基础。（占位评论）",
+          "date": "2026-10-02"
+        },
+        {
+          "author": "学员乙",
+          "rating": 4,
+          "content": "示例很好理解，希望有更多练习。（占位评论）",
+          "date": "2026-10-15"
+        },
+        {
+          "author": "学员丙",
+          "rating": 5,
+          "content": "免费课程里的良心之作。（占位评论）",
+          "date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "compose-ui",
+      "title": "Compose 界面设计进阶",
+      "subtitle": "用声明式 UI 打造精致的应用界面",
+      "description": "【占位内容】示例课程，演示付费课程的购买与学习流程。",
+      "instructor": "示例讲师 B",
+      "category": "设计",
+      "priceCents": 9900,
+      "coverColor": "#E91E63",
+      "rating": 4.6,
+      "ratingCount": 142,
+      "studentCount": 2310,
+      "featured": true,
+      "lessons": [
+        {
+          "id": "compose-ui-l01",
+          "title": "布局基础",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "compose-ui-l02",
+          "title": "动画与过渡",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "compose-ui-l03",
+          "title": "主题与深色模式",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        }
+      ],
+      "reviews": [
+        {
+          "author": "学员丁",
+          "rating": 5,
+          "content": "动画部分很有启发。（占位评论）",
+          "date": "2026-09-20"
+        },
+        {
+          "author": "学员戊",
+          "rating": 4,
+          "content": "内容扎实。（占位评论）",
+          "date": "2026-10-08"
+        },
+        {
+          "author": "学员己",
+          "rating": 4,
+          "content": "价格适中。（占位评论）",
+          "date": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "resume-interview",
+      "title": "简历与面试准备",
+      "subtitle": "写出打动面试官的简历，练习常见问题",
+      "description": "【占位内容】示例课程，内容为占位文字。",
+      "instructor": "示例讲师 C",
+      "category": "职场",
+      "priceCents": 3900,
+      "coverColor": "#00897B",
+      "rating": 4.7,
+      "ratingCount": 311,
+      "studentCount": 8740,
+      "featured": true,
+      "lessons": [
+        {
+          "id": "resume-interview-l01",
+          "title": "简历结构",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "resume-interview-l02",
+          "title": "项目经历表达",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "resume-interview-l03",
+          "title": "面试问答练习",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        }
+      ],
+      "reviews": [
+        {
+          "author": "学员庚",
+          "rating": 5,
+          "content": "模板很实用。（占位评论）",
+          "date": "2026-08-30"
+        },
+        {
+          "author": "学员辛",
+          "rating": 5,
+          "content": "面试练习很有帮助。（占位评论）",
+          "date": "2026-09-11"
+        },
+        {
+          "author": "学员壬",
+          "rating": 4,
+          "content": "希望增加行业案例。（占位评论）",
+          "date": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "english-speaking",
+      "title": "英语口语日常会话",
+      "subtitle": "每天十分钟，轻松开口说英语",
+      "description": "【占位内容】示例课程，仅用于演示列表与详情页。",
+      "instructor": "示例讲师 D",
+      "category": "语言",
+      "priceCents": 5900,
+      "coverColor": "#FB8C00",
+      "rating": 4.5,
+      "ratingCount": 98,
+      "studentCount": 1480,
+      "featured": false,
+      "lessons": [
+        {
+          "id": "english-speaking-l01",
+          "title": "打招呼与自我介绍",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "english-speaking-l02",
+          "title": "点餐与购物",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "english-speaking-l03",
+          "title": "问路与交通",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        }
+      ],
+      "reviews": [
+        {
+          "author": "学员癸",
+          "rating": 5,
+          "content": "场景对话很贴近生活。（占位评论）",
+          "date": "2026-10-05"
+        },
+        {
+          "author": "学员甲甲",
+          "rating": 4,
+          "content": "语速适中。（占位评论）",
+          "date": "2026-10-18"
+        },
+        {
+          "author": "学员乙乙",
+          "rating": 4,
+          "content": "可以多一些互动。（占位评论）",
+          "date": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "id": "phone-photography",
+      "title": "手机摄影入门",
+      "subtitle": "不用专业器材，也能拍出好照片",
+      "description": "【占位内容】示例课程，免费开放。",
+      "instructor": "示例讲师 E",
+      "category": "摄影",
+      "priceCents": 0,
+      "coverColor": "#8E24AA",
+      "rating": 4.4,
+      "ratingCount": 187,
+      "studentCount": 3950,
+      "featured": false,
+      "lessons": [
+        {
+          "id": "phone-photography-l01",
+          "title": "构图基础",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "phone-photography-l02",
+          "title": "光线与曝光",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "phone-photography-l03",
+          "title": "后期小技巧",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        }
+      ],
+      "reviews": [
+        {
+          "author": "学员丙丙",
+          "rating": 4,
+          "content": "构图讲得很好。（占位评论）",
+          "date": "2026-09-28"
+        },
+        {
+          "author": "学员丁丁",
+          "rating": 5,
+          "content": "免费课程很超值。（占位评论）",
+          "date": "2026-10-12"
+        },
+        {
+          "author": "学员戊戊",
+          "rating": 4,
+          "content": "希望有更多外拍案例。（占位评论）",
+          "date": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "personal-finance",
+      "title": "个人理财基础",
+      "subtitle": "建立预算、认识基金与风险",
+      "description": "【占位内容】示例课程，不构成任何投资建议。",
+      "instructor": "示例讲师 F",
+      "category": "理财",
+      "priceCents": 4900,
+      "coverColor": "#2E7D32",
+      "rating": 4.6,
+      "ratingCount": 174,
+      "studentCount": 2760,
+      "featured": false,
+      "lessons": [
+        {
+          "id": "personal-finance-l01",
+          "title": "记账与预算",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "personal-finance-l02",
+          "title": "认识基金",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        },
+        {
+          "id": "personal-finance-l03",
+          "title": "风险与保障",
+          "videoUrl": "asset:///videos/placeholder.mp4",
+          "durationMs": 20000
+        }
+      ],
+      "reviews": [
+        {
+          "author": "学员己己",
+          "rating": 5,
+          "content": "概念讲解清楚。（占位评论）",
+          "date": "2026-08-15"
+        },
+        {
+          "author": "学员庚庚",
+          "rating": 4,
+          "content": "示例有趣。（占位评论）",
+          "date": "2026-09-26"
+        },
+        {
+          "author": "学员辛辛",
+          "rating": 5,
+          "content": "适合入门。（占位评论）",
+          "date": "2026-10-27"
+        }
+      ]
+    }
+  ]
+}

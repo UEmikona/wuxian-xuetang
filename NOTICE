@@ -1,0 +1,23 @@
+无限学堂（Infinite Learn）致谢与第三方声明
+======================================
+
+本项目基于以下开源项目改造：
+
+1. VideoPlayerComposeSample
+   作者：Halil Ozel（https://github.com/halilozel1903/VideoPlayerComposeSample）
+   许可：MIT License（完整文本见仓库根目录 LICENSE）
+   用途：项目基座。保留了 Jetpack Compose 界面结构、Media3 播放器、Hilt 依赖注入与本地视频选取的基本框架。
+
+改造内容（相对于原项目）：
+- 增加本地账号（注册、登录、退出）与多账号独立学习数据。
+- 增加课程目录、课时进度、断点续播、笔记（带时间戳）、成就、学习时长统计。
+- 增加后台播放（MediaSessionService）与深色模式。
+- 数据存储由 Room 与 DataStore 实现，密码使用 PBKDF2-HMAC-SHA256 哈希。
+- 包名、应用名、主题与资源已全部替换。
+
+第三方库（通过 Gradle 引入，各自遵循其许可证）：
+- AndroidX（Media3、Room、DataStore、Navigation、Compose）：Apache License 2.0
+- Dagger / Hilt：Apache License 2.0
+- Kotlin 与 kotlinx.coroutines：Apache License 2.0
+
+本项目不包含任何受版权保护的课程视频、课件或教学内容。内置的课程、讲师、评论与视频均为原创占位内容（videos/placeholder.mp4 为程序生成的测试画面与提示音）。

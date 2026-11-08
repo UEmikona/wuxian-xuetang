@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jar binary
+*.mp4 binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.apk binary
+gradlew text eol=lf

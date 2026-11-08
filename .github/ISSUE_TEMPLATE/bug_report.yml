@@ -1,0 +1,53 @@
+name: 缺陷报告 / Bug report
+description: 反馈应用中的错误或异常行为
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 感谢你的反馈！请尽量填写下面的信息，便于复现问题。
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本
+      placeholder: 例如 1.2.0
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备与 Android 版本
+      placeholder: 例如 Pixel 7 / Android 14
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 所在模块
+      options:
+        - 登录 / 账号
+        - 首页 / 分类 / 搜索
+        - 课程详情 / 收藏 / 购买
+        - 播放器（全屏、倍速、进度）
+        - 后台播放 / 通知栏
+        - 笔记 / 成就 / 学习统计
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志或截图（可选）
+      description: 可使用 `adb logcat` 导出相关日志，注意删除个人信息。

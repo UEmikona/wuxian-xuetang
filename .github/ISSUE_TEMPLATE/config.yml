@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全漏洞报告
+    url: https://github.com/OWNER/REPO/security/advisories/new
+    about: 请通过私密渠道报告安全问题，不要公开披露。
+  - name: 使用问题与讨论
+    url: https://github.com/OWNER/REPO/discussions
+    about: 一般性问题请在 Discussions 中提问。
